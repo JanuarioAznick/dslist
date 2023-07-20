@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.nanotechmoz.dslist.dto.GameDTO;
 import com.nanotechmoz.dslist.dto.GameMinDTO;
-import com.nanotechmoz.dslist.entities.Game;
 import com.nanotechmoz.dslist.services.GameService;
 
 @RestController
@@ -33,5 +32,5 @@ public class GameController {
 		return game;
 		
 	}
-
+	
 }
